@@ -12,8 +12,9 @@ s("oksuka")
 ```
 
 ```
-samples('https://raw.githubusercontent.com/lynn/sounds/main/chrono-trigger/strudel.json')
-s("corridor")
+samples('https://raw.githubusercontent.com/lynn/sounds/main/chrono-trigger/strudel.json?version=3')
+setcpm(56)
+note("[<e0 g#1 f#1 g#1> g#0 c#1 d#1]").sound("corridor").decay(0.6).jux(x => press(x).gain(0.6)).delay("0.3:0.08")
 ```
 
 ```
