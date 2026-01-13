@@ -22,3 +22,11 @@ samples('https://raw.githubusercontent.com/lynn/sounds/main/yoshis-island/strude
 s("musicbox")
 ```
 
+## Vocaloid stems
+
+Currently, `teto` is a stem of Kasane Teto singing Jamie Paige's _Strawberry_. I normalized the volume. Jamie's stems are [available under a CC BY-NC-SA license](https://jamies.page/stems).
+
+```
+samples('https://raw.githubusercontent.com/lynn/sounds/main/vocaloid/strudel.json')
+s("teto")
+```
